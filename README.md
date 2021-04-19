@@ -16,15 +16,3 @@ Packages relied upon were all found in the standard Anaconda library: sys, rando
 The project can be fully accessed via the command line.  This program has a menu of options once launched via the terminal.  <br>Please access the application as follows:
 > python btc_wallet.py
 
-### Key methods: 
-- fetch_current_price()
-- fetch_hist_price ()
-- chart_btc_price()
-- get_statement()
-
-### Classes:
-- Account
-- Wallet
-- PriceChart
-- BitcoinAPI
-- Menu / Errors / Main
