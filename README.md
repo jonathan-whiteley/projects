@@ -2,12 +2,16 @@
 
 <br>_Author_: Jonathan Whiteley<br>
 _Contact_: jonathan.whiteley@berkeley.edu<br>
-_Note_: OOP take on Bitcoin wallet program<br>
+
+## NLP VADER Sentiment Analysis on Earnings Call Transcripts
+
+### Overview
+NLP analysis on Sentiment from Earnings Calls. Do different parts of the call (scripted management discussion vs Q&A section) show different sentiment based on evaluation of transcripts from the calls. VADER is a model used for text sentiment analysis that is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. It is available in the NLTK package and can be applied directly to unlabeled text data.
 
 ## Bitcoin Wallet
 
 ### Overview
-A digital wallet is a way in which investors can buy, hold, and store cryptocurrency.
+A digital wallet is a way in which investors can buy, hold, and store cryptocurrency. Object Oriented Programming design.
 
 The project can be fully accessed via the command line. Packages relied upon were all found in the standard Anaconda library: sys, random, json, requests, matplotlib, pandas, datetime
 
