@@ -41,6 +41,3 @@ CITIbike is the largest bike sharing program in the United States. Bike stations
 ### Overview
 COVID cases & deaths trend analysis by county, focused on NYC. Leveraging publicly available covid-19 figures from NYTimes.
 
-
-Independence tells us that \(\text{cov}[X,Y]=0\).  So we can write, \(\text{V}[X+Y] = \text{V}[X]+\text{V}[Y]\).  For the second expression,  \(\text{V}[X-Y]=\text{V}[X + (-1 \cdot Y)] = \text{V}[X]+\text{cov}[X,-1\cdot Y] + \text{V}[-1 \cdot Y] \).
-Applying linearity properties, \(\text{cov}[X,-1\cdot Y] = -1 \cdot \text{cov}[X,Y] = 0\), and \(\text{V}[-1\cdot Y] = (-1)^2 \text{V}[Y] = \text{V}[Y]\).  So \(\text{V}[X-Y]=\text{V}[X + (-1 \cdot Y)] = \text{V}[X]+ \text{V}[Y] \).
